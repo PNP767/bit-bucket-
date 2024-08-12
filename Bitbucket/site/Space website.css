@@ -1,0 +1,361 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol,
+ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+@font-face {
+	font-family: "OpenSans_Bold";
+	src: url("fonts/OpenSans-Bold.woff2") format("woff2"), url("fonts/OpenSans-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "OpenSans_Medium";
+	src: url("fonts/OpenSans-Medium.woff2") format("woff2"), url("fonts/OpenSans-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "OpenSans_Light";
+	src: url("fonts/OpenSans-Light.woff2") format("woff2"), url("fonts/OpenSans-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "OpenSans_Regular";
+	src: url("fonts/OpenSans-Regular.woff2") format("woff2"), url("fonts/OpenSans-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "OpenSans_Light", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #333;
+	overflow-x: hidden;
+	min-width: 320px;
+}
+input,
+textarea,
+select {
+	font-family: "OpenSans_Light", Arial, Helvetica, sans-serif;
+}
+
+a {
+	color: #333;
+}
+a:hover,
+.submit:hover {
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb {
+	display: block;
+}
+.thumb img {
+	display: block;
+	width: 100%;
+}
+p {
+	line-height: 1.6em;
+	font-size: 16px;
+	font-family: "OpenSans_Light", Arial;
+}
+.hidden {
+	display: none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+h1 {
+	font-family: "OpenSans_Light";
+}
+
+
+#home{
+background: #d1a22d;
+padding: 2% 0% 7%;
+}
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header h1{
+	width: 80px;
+}
+header h1 a{
+display: block;
+}
+header h1 a img{
+	width: 100%;
+}
+header nav{
+
+}
+header nav ul{
+
+}
+header nav ul li{
+display: inline-block;
+margin-right: 35px;
+}
+header nav ul li:last-child{
+	margin-right: 0;
+}
+header nav ul li a{
+	color: #fff;
+	font-family: "OpenSans_Regular"; 
+	font-size: 18px;
+}
+#spotlite{
+	margin-top: 15%;
+	text-align: center;
+
+}
+#spotlite h1{
+	font-size: 50px;
+	font-family: "OpenSans_bold";
+	color: #fff;
+
+}
+#spotlite p{
+	margin: 20px auto;
+	color: #fff;
+	font-family: Open;
+	width: 80%;
+	
+}
+#spotlite a.button{
+	color: #fff;
+	background: #2d2d2d;
+	font-size: 18px;
+	font-family: "OpenSans_Medium";
+	padding: 20px 55px;
+	display: inline-block;
+	border-radius: 30px;
+}
+#aboute{
+	background: #2d2d2d;
+	color: #fff;
+	display: flex;
+}
+#aboute .widget{
+	width: 33.33%;
+	padding: 100px 60px;
+	text-align: center;
+
+}
+#aboute .widget h3{
+	text-align: center;
+}
+#aboute .middile{
+	background: #262626;
+	border-left: #d1a22d 1px solid;
+	border-right: #d1a22d 1px solid;
+}
+#aboute .widget .last{
+
+}
+#aboute .widget span.round-icon{
+width: 120px;
+height: 120px;
+border: 2px solid #d1a22d;
+border-radius: 50%;
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+}
+
+#aboute .widget span.round-icon small{
+height: 80px;
+width: 86px;
+background: url(images/sprite.png);
+display: inline-block;
+background-position: -157px -82px ;
+}
+#aboute .widget.middile span.round-icon small{
+	height: 80px;
+	width: 86px;
+	background: url(images/sprite.png);
+	display: inline-block;
+	background-position: 7.9px -80px ;
+	}
+#aboute .widget.last span.round-icon small{
+	height: 80px;
+	width: 86px;
+	background: url(images/sprite.png);
+	display: inline-block;
+	background-position: -71px -75px;
+}
+
+#aboute .widget h3{
+	font-size: 45px;
+	color:#d1a22d;
+	margin: 20px 0px;
+}
+
+#aboute .widget p{
+
+}
+#middile{
+padding: 70px 0;
+}
+#middile .wrapper{
+
+}
+#middile .wrapper div.head{
+text-align: center;
+margin-bottom: 60px;
+}
+#middile .wrapper div.head h2{
+font-size: 45px;
+color: #d1a22d;
+font-family:"OpenSans_Bold"  ;
+}
+#middile .wrapper ul{
+display: flex;
+justify-content: space-between;
+}
+#middile .wrapper ul li.card{
+width: 45%;
+text-align: center;
+padding: 60px;
+box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1),0 0px 10px 0 rgba(0,0,0,0.1);
+}
+#middile .wrapper ul li.card a{
+display: block;
+}
+#middile .wrapper ul li.card a img {
+width: 90px;
+}
+#middile .wrapper ul li.card h3{
+text-transform: uppercase;
+font-size: 30px;
+margin: 10px 0px 15px;
+}
+#middile .wrapper ul li.card h3 a{
+color: #d1a22d;
+}
+#middile .wrapper ul li.card p{
+	color: #a6a9aa;
+	margin-bottom: 15px; 
+}
+#middile .wrapper ul li.card a.button{
+display: inline-block;
+padding: 20px 55px;
+border-radius: 30px;
+color: #fff;
+background: #d1a22d;
+}
+
+
+#main{
+
+}
+#main section.content-item .wrapper{
+ display: flex;
+ justify-content: space-between;
+padding: 60px 0;
+}
+
+#main section.content-item.bg{
+	background: #d1a22d;
+}
+#main section.content-item img{
+	width: 35%;
+}
+#main section.content-item div.content{
+	width: 50%;
+}
+#main section.content-item div.content h3{
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+#main section.content-item.bg div.content  h3{
+	color: white;
+}
+#main section.content-item.bg div.content p{
+	color: white;
+}
+
+footer{
+
+}
+footer section.top{
+background: #2d2d2d;
+padding: 60px 0;
+}
+footer section.top section.wrapper{
+display: flex;
+justify-content: space-between;
+}
+footer section.top div.item{
+width: 30%;
+text-align: center;
+}
+footer section.top div.item a{
+	color: #fff;
+	font-size: 18px;
+}
+footer section.top div.item img{
+	width: 32px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+footer section.top div.item p{
+	color: #fff;
+	font-size: 18px;
+}
+
+footer section.bottom{
+background: #000;
+padding: 20px;
+color: #fff;
+}
+footer section.bottom section.wrapper{
+display: flex;
+justify-content:space-between ;
+}
+footer section.bottom p.left{
+
+}
+footer section.bottom p.righte{
+
+}
+footer section.bottom p.righte a{
+color: #fff;
+}
